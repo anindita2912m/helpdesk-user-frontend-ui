@@ -1,6 +1,5 @@
 import "./AddAgentModal.css";
 import { useState } from "react";
-
 function AddAgentModal({ agent: editingAgent, onClose, onAdd }) {
   const [agent, setAgent] = useState(
     editingAgent || {
