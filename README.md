@@ -1,31 +1,31 @@
-# Support Dashboard UI
+# User Frontend UI
 
-A modern and responsive **IT Support Ticket Management Dashboard** built with React. This project focuses on creating a clean admin-style interface for monitoring tickets, support agents, analytics, and user activities using reusable components and mock data.
+A modern and responsive **Help Desk Ticket Management User Portal** built with React. This project focuses on providing an intuitive interface for users to register, log in, raise support tickets, track ticket status, and manage their support requests using reusable components and mock data.
 
-The application demonstrates a frontend implementation of a help desk management system with an intuitive dashboard experience.
+The application demonstrates the frontend implementation of a user portal for a help desk management system with a clean and user-friendly experience.
 
 ## 🚀 Live Demo
 
-[View Live Dashboard](YOUR_VERCEL_LINK)
+[View Live User Portal](YOUR_VERCEL_LINK)
 
 ## 💻 Repository
 
-[GitHub Repository](https://github.com/anindita2912m/support-dashboard-ui)
+[GitHub Repository](https://github.com/anindita2912m/helpdesk-user-frontend-ui)
 
 ---
 
 ## ✨ Features
 
-- 📊 Dashboard overview with ticket statistics
-- 🎫 Ticket management interface
-- 🔍 Search and filtering functionality
-- 📈 Interactive charts for ticket analytics
-- 👥 Support agent management section
-- 🔔 Recent activity and notification panels
-- ⚙️ Settings and profile pages
-- 🏷️ Ticket priority and status indicators
-- 📱 Responsive layout for different screen sizes
-- 🎨 Modern admin dashboard UI design
+- 🔐 User Login and Registration
+- 🏠 User Dashboard
+- 🎫 Raise New Support Tickets
+- 📋 View and Track Submitted Tickets
+- 🔍 Search and Filter Tickets
+- 🔔 Notifications Interface
+- 👤 User Profile Section
+- 📱 Responsive Design for Desktop and Mobile
+- 🎨 Modern and Clean User Interface
+- ⚡ Component-Based React Architecture
 
 ---
 
@@ -33,36 +33,32 @@ The application demonstrates a frontend implementation of a help desk management
 
 ### Frontend
 
-- **React.js** - Component-based UI development
-- **Vite** - Fast development and build tooling
-- **JavaScript (ES6+)** - Application logic
-- **CSS3** - Custom styling and responsive layouts
-- **React Icons** - UI icons and visual elements
-
-### Visualization
-
-- Chart components for displaying ticket insights and statistics
+- **React.js** – Component-based UI development
+- **Vite** – Fast development and build tooling
+- **JavaScript (ES6+)** – Application logic
+- **CSS3** – Custom styling and responsive layouts
+- **React Router DOM** – Client-side routing
+- **React Icons** – UI icons and visual elements
 
 ---
 
 ## 📂 Project Structure
 
+```text
 src/
 │
-├── components/
-│   ├── dashboard/
-│   ├── charts/
-│   ├── agents/
+├── user-frontend/
+│   ├── auth/
 │   ├── layout/
-│   ├── navbar/
-│   └── sidebar/
-│
-├── pages/
+│   ├── Dashboard/
+│   ├── pages/
+│   └── components/
 │
 ├── assets/
 │
 ├── App.jsx
 └── main.jsx
+```
 
 ---
 
@@ -80,13 +76,13 @@ Make sure you have:
 Clone the repository:
 
 ```bash
-git clone https://github.com/anindita2912m/support-dashboard-ui.git
+git clone https://github.com/anindita2912m/helpdesk-user-frontend-ui.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd support-dashboard-ui
+cd helpdesk-user-frontend-ui
 ```
 
 Install dependencies:
@@ -103,7 +99,7 @@ npm run dev
 
 The application will run locally at:
 
-```
+```text
 http://localhost:5173
 ```
 
@@ -111,19 +107,20 @@ http://localhost:5173
 
 ## 📌 About This Project
 
-This project represents the frontend implementation of an IT Support Ticket Management System. It focuses on creating a professional dashboard experience with reusable React components, structured layouts, data visualization, and responsive UI design.
+This project represents the frontend implementation of the **User Portal** for an IT Help Desk Ticket Management System. It provides a seamless interface for users to register, authenticate, submit support requests, monitor ticket progress, and manage their interactions through a clean and responsive design.
 
-The application currently uses static/mock data to demonstrate the interface and user experience.
+The application currently uses static/mock data to demonstrate the interface and overall user experience.
 
 ---
 
 ## 📄 Future Improvements
 
 - Backend API integration
-- Real-time ticket updates
-- User authentication
-- Database connectivity
-- Advanced filtering and analytics
+- JWT-based Authentication
+- Database Connectivity
+- Real-time Ticket Status Updates
+- Email Notifications
+- User Profile Management
 
 ---
 
