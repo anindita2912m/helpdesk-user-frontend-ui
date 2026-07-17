@@ -1,25 +1,27 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import Dashboard from "./pages/Dashboard";
-import Tickets from "./pages/Tickets";
-import Agents from "./pages/Agents";
-import Reports from "./pages/Reports";
-import Settings from "./pages/Settings";
-import Profile from "./pages/Profile";
+import UserDashboard from "./user-frontend/Dashboard/UserDashboard";
+import MyTickets from "./user-frontend/pages/MyTickets";
+import RaiseTickets from "./user-frontend/pages/RaiseTickets";
+import UserProfile from "./user-frontend/pages/UserProfile";
+import Notifications from "./user-frontend/pages/Notifications";
+import Login from "./user-frontend/auth/Login";
+import Register from "./user-frontend/auth/Register";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         {/* Redirect root to dashboard */}
-        <Route path="/" element={<Navigate to="/dashboard" />} />
+        <Route path="/" element={<Navigate to="/login" />} />
+        <Route path="/user-dashboard" element={<UserDashboard />} />
+        <Route path="/my-tickets" element={<MyTickets />} />
+        <Route path="/raise-tickets" element={<RaiseTickets />} />
+        <Route path="/user-profile" element={<UserProfile />} />
+        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/tickets" element={<Tickets />} />
-        <Route path="/agents" element={<Agents />} />
-        <Route path="/reports" element={<Reports />} />
-        <Route path="/settings" element={<Settings />} />
-        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
