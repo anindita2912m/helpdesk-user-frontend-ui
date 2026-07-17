@@ -6,7 +6,10 @@ The application demonstrates the frontend implementation of a user portal for a 
 
 ## 🚀 Live Demo
 
-[View Live User Portal](YOUR_VERCEL_LINK)
+[View Live User Portal](https://helpdesk-user-frontend-ui.vercel.app/)
+Login Credentials;
+Email: demo@example.com
+Password: Demo@123
 
 ## 💻 Repository
 
